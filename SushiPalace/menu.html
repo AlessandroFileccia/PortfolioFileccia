@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ristorante Sushi</title>
+    
+    <!-- Link al file CSS di Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style2.css">
+   <!-- Collegamento al font da Google Fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+   <script  src = "https://kit.fontawesome.com/**********.js"  crossorigin = "anonymous"> </script> 
+    
+   
+</head>
+<body>
+
+<!-- Barra di navigazione -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <img src="./img/logo1.png" id="logo" alt="logo">
+    <a class="navbar-brand" href="index.html" id="nome">Sushi Palace</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contatti.html">Contatti</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<hr class="short-divider">
+
+
+<div class="container mt-5">
+    <div class="row" >
+        <div class="col text-left">
+            <h2 id="nostromenu">Il nostro menù</h2>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid video-section">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6">
+        <video controls autoplay loop muted>
+          <source src="../assets/video/menusushipalace.mp4" type="video/mp4">
+          Il tuo browser non supporta il tag video.
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <div class="container info-section2">
+    <div class="row">
+      <div class="col-12">
+        <h2>Informazioni sul Progetto</h2>
+        <p>Questo progetto è stato realizzato utilizzando <strong>MySQL</strong>, <strong>Java</strong> e <strong>Spring</strong>. Purtroppo, GitHub Pages non consente di caricare il progetto completo e funzionante, ma puoi consultare il codice sorgente cliccando sul link sottostante.</p>
+        <a href="https://github.com/tuo-username/tuo-repository" class="btncodice">Visualizza il Codice</a>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="short-divider">
+<div class="reviews-section">
+  <div class="container">
+    <h2 class="mt-4" style="text-align: center;">Recensioni</h2>
+    <div class="row">
+        <!-- Recensione 1 -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="./img/photoprofile1.jpg" alt="Profile Image" class="profile-image mr-3">
+                        <h5 class="card-title mb-0">Mario Giacchetti</h5>
+                    </div>
+                    <div class="star-rating mb-2">
+                        <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                    </div>
+                    <p class="card-text">Il sushi qui è straordinario! Il tonno e il salmone erano freschissimi e si scioglievano in bocca. Personale cordiale e servizio eccellente. Consiglio vivamente!</p>
+                </div>
+            </div>
+        </div>
+        <!-- Recensione 2 -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="./img/photoprofile2.jpg" alt="Profile Image" class="profile-image mr-3">
+                        <h5 class="card-title mb-0">Luana Vanese</h5>
+                    </div>
+                    <div class="star-rating mb-2">
+                        <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                    </div>
+                    <p class="card-text">Questo ristorante offre una vasta scelta di sushi delizioso. Ho amato il "Dragon Roll" e il sashimi era impeccabile. Servizio un po' lento ma ne vale la pena.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Recensione 3 -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="./img/photoprofile3.jpg" alt="Profile Image" class="profile-image mr-3">
+                        <h5 class="card-title mb-0">Giulio Zerbi</h5>
+                    </div>
+                    <div class="star-rating mb-2">
+                        <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                    </div>
+                    <p class="card-text">Il top! Pesce freschissimo e presentazione artistica. Il "Toro" e l'"Uni" sono da provare assolutamente. Un'esperienza fantastica, il migliore!!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h6 id="valutazione"> Valutazione complessiva <strong>Google4.8</strong> su 5,in base a <strong>1486 recensioni</strong></h6> 
+</div>
+</div>
+
+  
+<footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <h5 id="nomefooter">Sushi palace <br>
+        <h6 id="restaurant">Restaurant</h3>
+        </h5>
+          <p>Via Roma, 123
+            10123 Torino (TO)
+            Italia</p>
+        </div>
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <h5>Contatti</h5>
+          <p><strong>Telefono:</strong> +39 0123 456789</p>
+          <p><strong>Email:</strong> info@sushipalace.it</p>
+          <h5>Orari</h5>
+          <p>Lun - Ven: 12:00 - 15:30, 18:00 - 00:00</p>
+          <p>Sab - Dom: 12:00 - 01:00</p>
+        </div>
+        <div class="col-lg-4">
+          <h5>Info Utili</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+<!-- Script di Bootstrap (jQuery e Popper.js) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Il tuo script JavaScript -->
+<script src="./js/script2.js"></script>
+
+</body>
+</html>

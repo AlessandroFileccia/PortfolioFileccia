@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ristorante Sushi</title>
+    
+    <!-- Link al file CSS di Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+   <!-- Collegamento al font da Google Fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+   <script  src = "https://kit.fontawesome.com/**********.js"  crossorigin = "anonymous"> </script> 
+    
+   
+</head>
+<body>
+
+<!-- Barra di navigazione -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <img src="./img/logo1.png" id="logo" alt="logo">
+    <a class="navbar-brand" href="index.html" id="nome">Sushi Palace</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contatti.html">Contatti</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Sezione principale con l'immagine di sushi -->
+<div class="hero-section">
+    <!-- Contenitore per testo e bottone -->
+    <div class="content-container">
+        <!-- Testo o contenuto in basso a sinistra -->
+        <div class="text-bottom-left">
+            <h1 id="fraseHero">L'armonia perfetta del sushi autentico</h1>
+        </div>
+        <!-- Bottone a destra -->
+        <a href="menu.html" class="btn btn-menu">Guarda il nostro menu</a>
+    </div>
+</div>
+
+<!-- Linea di separazione -->
+<hr class="short-divider">
+
+<!-- Nuova sezione per le frasi -->
+<div class="phrase-section">
+    <div class="container">
+        <div class="row">
+            <div class="col text-right">
+                <p class="phrase-top">Goditi il gusto del vero<br>
+                    sushi giapponese in italia</p>
+                <hr class="divider">
+                <p class="phrase-bottom">Sushi Palace presenta un'ampia gamma di piatti <br> unici e 
+                    originali,
+                     preparati con ingredienti di alta qualità <br>
+                     per offrire un'esperienza culinaria straordinaria.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Sezione con tre immagini di sfondo e testo sopra -->
+<div class="row">
+    <div class="col-sm-4">
+        <div class="image-background-section" style="background-image: url('./img/imgselection1.jpg');">
+            <div class="container-fluid">
+                <div class="text-center">
+                    <div class="image-content">
+                        <h3 style=" font-weight: bold; font-size: 50px">Tutti i comfort della nostra location</h3>
+                       
+                        
+                        
+                        
+                        
+
+                        <p>Un ambiente confortevole, totalmente climatizzato, con Wi-Fi gratuito e un delizioso dehor all'esterno.</p>
+                        <a href="#" class="btn btn-primary" id="btnmenu">Il nostro menù</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-4">
+        <div class="image-background-section" style="background-image: url('./img/imgselection2.jpg');">
+            <div class="container-fluid">
+                <div class="text-center">
+                    <div class="image-content">
+                       
+                        <h3 style=" font-weight: bold; font-size: 30px">Ingredienti di qualità</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-4">
+        <div class="image-background-section" style="background-image: url('./img/imgselection3.jpg');">
+            <div class="container-fluid">
+                <div class="text-center">
+                    <div class="image-content">
+                       
+                        <h3 style=" font-weight: bold; font-size: 30px">Porta il giappone in casa tua</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr class="short-divider">
+
+<div class="container-fluid">
+    <!-- Titolo "Take Away e Delivery" -->
+   
+      <div class="col">
+        <h2 class="text-center" style="font-size: 100px;">Take Away e Delivery: comodità al tuo servizio</h2>
+      </div>
+    
+      <hr class="short-divider">
+  
+    <!-- Sezione divisa in due colonne (col-sm-5/7) -->
+    <div class="row my-5">
+      <!-- Colonna sinistra con immagine centrata -->
+      <div class="col-sm-5">
+        <div class="image-container">
+          <img src="./img/img1.jpg" class="img-fluid" id="img1" alt="Immagine">
+        </div>
+      </div>
+      
+      <div class="col-sm-7">
+        <div class="row">
+          <!-- Prima colonna con due card in alto -->
+          <div class="col">
+            <div class="card mb-3 custom-card">
+              <div class="card-body text-center">
+                <h5 class="card-title">Servizio Box</h5>
+                <p class="card-text">Seleziona i tuoi piatti preferiti e componi la box più adatta a te. Puoi creare la box perfetta per i tuoi gusti.</p>
+              </div>
+            </div>
+            <div class="card mb-3 custom-card">
+              <div class="card-body text-center">
+                <h5 class="card-title">Consegna Rapida</h5>
+                <p class="card-text">I tuoi piatti freschi e deliziosi vengono preparati con puntualità e in tempi rapidissimi per garantirti il meglio.</p>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Seconda colonna con due card in basso -->
+          <div class="col">
+            <div class="card mb-3 custom-card">
+              <div class="card-body text-center">
+                <h5 class="card-title">Promozioni Esclusive</h5>
+                <p class="card-text">Scopri le offerte speciali che propone Taiyo sia ordinando con la formula Take Away, che con quella Delivery.</p>
+              </div>
+            </div>
+            <div class="card mb-3 custom-card">
+              <div class="card-body text-center">
+                <h5 class="card-title">Ordinare è facile!</h5>
+                <p class="card-text">Visita il nostro sito e componi il tuo ordine. Portiamo a casa tua tutto il sapore orientale preservandone il gusto.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+     
+    </div>
+  
+  </div>
+  <hr class="short-divider">
+<div class="reviews-section">
+  <div class="container">
+    <h2 class="mt-4" style="text-align: center;">Recensioni</h2>
+    <div class="row">
+        <!-- Recensione 1 -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="./img/photoprofile1.jpg" alt="Profile Image" class="profile-image mr-3">
+                        <h5 class="card-title mb-0">Mario Giacchetti</h5>
+                    </div>
+                    <div class="star-rating mb-2">
+                        <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                    </div>
+                    <p class="card-text">Il sushi qui è straordinario! Il tonno e il salmone erano freschissimi e si scioglievano in bocca. Personale cordiale e servizio eccellente. Consiglio vivamente!</p>
+                </div>
+            </div>
+        </div>
+        <!-- Recensione 2 -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="./img/photoprofile2.jpg" alt="Profile Image" class="profile-image mr-3">
+                        <h5 class="card-title mb-0">Luana Vanese</h5>
+                    </div>
+                    <div class="star-rating mb-2">
+                        <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                    </div>
+                    <p class="card-text">Questo ristorante offre una vasta scelta di sushi delizioso. Ho amato il "Dragon Roll" e il sashimi era impeccabile. Servizio un po' lento ma ne vale la pena.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Recensione 3 -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="./img/photoprofile3.jpg" alt="Profile Image" class="profile-image mr-3">
+                        <h5 class="card-title mb-0">Giulio Zerbi</h5>
+                    </div>
+                    <div class="star-rating mb-2">
+                        <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                    </div>
+                    <p class="card-text">Il top! Pesce freschissimo e presentazione artistica. Il "Toro" e l'"Uni" sono da provare assolutamente. Un'esperienza fantastica, il migliore!!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h6 id="valutazione"> Valutazione complessiva <strong>Google4.8</strong> su 5,in base a <strong>1486 recensioni</strong></h6> 
+</div>
+</div>
+  
+<footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <h5 id="nomefooter">Sushi palace <br>
+        <h6 id="restaurant">Restaurant</h3>
+        </h5>
+          <p>Via Roma, 123
+            10123 Torino (TO)
+            Italia</p>
+        </div>
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <h5>Contatti</h5>
+          <p><strong>Telefono:</strong> +39 0123 456789</p>
+          <p><strong>Email:</strong> info@sushipalace.it</p>
+          <h5>Orari</h5>
+          <p>Lun - Ven: 12:00 - 15:30, 18:00 - 00:00</p>
+          <p>Sab - Dom: 12:00 - 01:00</p>
+        </div>
+        <div class="col-lg-4">
+          <h5>Info Utili</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+<!-- Script di Bootstrap (jQuery e Popper.js) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Il tuo script JavaScript -->
+<script src="./js/script.js"></script>
+
+</body>
+</html>

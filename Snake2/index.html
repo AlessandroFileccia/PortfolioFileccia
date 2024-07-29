@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic Snake HTML Game</title>
+  <meta charset="UTF-8">
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <style>
+    body {
+      height: 100vh; /* Altezza del corpo della pagina pari all'altezza della viewport */
+    }
+  </style>
+</head>
+<body class="d-flex align-items-center justify-content-center">
+
+  <div class="container">
+    <div class="row justify-content-center">
+      
+  
+      <div class="col text-center mr-5">
+        <h1 class="game-title">Nokia 3310 Snake</h1>
+        <img src="./img/logo2.jpg" id="logo" alt="">
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col text-center">
+        <canvas width="400" height="400" id="game" ></canvas>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col text-center">
+        <div class="leaderboard-container">
+          <div class="form-group">
+            <label for="username">Nome Utente:</label> 
+            <input type="text" class="form-control" id="username" placeholder="Inserisci il tuo nome">
+            <button id="startButton" class="btn btn-primary mt-2">Inizia Partita</button>
+          </div>
+
+          <div id="leaderboard" class="text-center mx-4">
+            <h2>Leaderboard</h2>
+            <ol id="leaderboardList" class="list-group"></ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/scriptSnake.js"></script>
+</body>
+</html>

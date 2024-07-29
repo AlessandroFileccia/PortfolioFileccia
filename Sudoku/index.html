@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it" id="html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risolvi Sudoku</title>
+    <!-- Aggiunta della libreria Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container py-4">
+            <div class="row mb-3">
+               
+                <div class="col">
+                    <div class="card-container">
+                        <div class="card mx-auto" style="max-width: 600px;">
+                            <div class="card-header bg-primary text-white text-center">
+                                <h1 class="card-title">Risolvi Sudoku</h1>
+                            </div>
+                            <div id="griglia-sudoku" class="card-body griglia-sudoku">
+                                <!-- La griglia Sudoku verrà generata qui -->
+                            </div>
+                            <div class="card-footer text-center">
+                                <button id="pulsante-risolvi" class="btn btn-primary btn-block">Risolvi</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Aggiunta della libreria jQuery (necessaria per Bootstrap) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Aggiunta della libreria Bootstrap JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

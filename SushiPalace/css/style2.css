@@ -1,0 +1,220 @@
+.navbar {
+    position: relative !important;
+    z-index: 1000 !important; /* o un valore superiore, a seconda del necessario */
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 800px;
+    
+}
+
+.faq-answer.show {
+    display: block;
+}
+
+#titolofaq{
+    text-align: center;
+    display: flex;
+  
+}
+
+.faq-container {
+    width: 800px; /* Impo6ta la larghezza massima della sezione FAQ */
+    margin: 0 auto;
+    padding: 20px; /* Spaziatura interna */
+}
+
+#testocontatti{
+
+    font-family: "Montserrat", Sans-serif;
+}
+
+#vieni{
+
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Montserrat", Sans-serif;
+}
+
+
+.contact-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px;
+}
+.contact-icon i {
+    font-size: 24px;
+    
+}
+.contact-text {
+    font-family: "Montserrat", Sans-serif;
+}
+
+.divider2 {
+    border-top: 1px solid #191919;
+    width: 100%;
+    margin-top: 5px; /* Riduco lo spazio sopra la linea */
+    margin-bottom: 5px; /* Riduco lo spazio sotto la linea */
+  }
+  /* Spazio tra gli orari */
+  .orari {
+    margin-bottom: -10px; /* Riduco lo spazio tra i giorni */
+  }
+
+
+#inostriorari{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px; /* Spazio inferiore al titolo */
+    font-family: "Montserrat", Sans-serif;
+    font-weight: bold;
+}
+
+.orariristorante {
+    text-align: right; /* Allinea il testo a destra */
+    display: block; /* Assicura che il testo sia su una nuova riga per ogni span */
+  }
+
+.img-fluid2{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  margin-left: auto;
+}
+
+.blue-background {
+    background-color: #29485d; /* Colore blu di esempio */
+    color: #000000; /* Colore del testo */
+    padding: 20px; /* Padding opzionale per spaziatura interna */
+    font-family: "Montserrat", Sans-serif;
+}
+
+/* Stili per la colonna dei cibi */
+#cibi-categoria .card {
+    margin-bottom: 15px; /* Spazio tra le card */
+    height: 100%; /* Altezza massima per uniformare */
+    width: 100%;
+}
+
+/* Stili per le colonne dei cibi */
+#cibi-categoria .col-cibo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+/* Stili per le card dei cibi */
+#cibi-categoria .card-body {
+    height: 100%;
+   
+}
+
+/* Stili per il titolo della card */
+#cibi-categoria .card-title {
+    margin-bottom: 5px; /* Spazio sotto il titolo */
+}
+
+/* Stili per la descrizione e il prezzo */
+#cibi-categoria .card-text {
+    margin-bottom: 2px; /* Spazio tra testo e bordi */
+}
+
+.list-group-item-action {
+    width: 90%;
+    color: #495057;
+    text-align: inherit;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.list-group-item-action:hover{
+    background-color: #353535;
+    color: #ffffff;
+}
+
+#nostromenu{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center;    /* Centra verticalmente */
+    height: 35vh;          /* Altezza del contenitore (adatta secondo necessità) */
+}
+
+.slideshow-image {
+    width: 300px;
+}
+
+.contact-text{
+    font-size: 16px;
+}
+
+.orari{
+    font-size: 18px;
+}
+
+.video-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa; /* Colore di sfondo per visualizzazione */
+  }
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+
+    /* CSS per la sezione informativa */
+    .info-section2 {
+        padding: 2rem;
+        background-color: #ffffff;
+        font-size: 18px;
+      }
+
+.btncodice{
+    background-color: black !important;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px; /* Valore alto per bordi molto arrotondati */
+    font-size: 14px;
+   
+}
+
+.btncodice:hover{
+    color: gray;
+
+}

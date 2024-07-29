@@ -1,0 +1,381 @@
+ /* Stile per il div con l'immagine di sushi */
+ .hero-section {
+    background: url('../img/navbarsfondo1.jpg') center center/cover no-repeat;
+    height: 100vh; /* Altezza pari all'altezza del viewport */
+    position: relative; /* Posizione relativa per posizionare elementi all'interno */
+    display: flex;
+    justify-content: space-between; /* Spazio tra i contenuti */
+    align-items: flex-end;
+    padding: 20px; /* Padding per spaziare il testo dal bordo */
+    color: white; /* Colore del testo bianco */
+    
+}
+
+body {
+    overflow-x: hidden !important; /* Rimuove lo scroll orizzontale */
+}
+
+/* Stili per la nav bar */
+.navbar {
+    position: absolute; /* Posizione assoluta rispetto al viewport */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Per posizionare sopra l'immagine */
+    background-color: transparent; /* Sfondo trasparente */
+    margin-right: 20px;
+}
+
+.navbar-brand {
+    color: white; /* Colore del logo */
+    font-size: 1.5rem; /* Dimensione del logo */
+    font-weight: bold; /* Grassetto per il logo */
+}
+
+.navbar-nav .nav-link {
+    color: black !important; /* Colore dei link (nero) */
+    font-size: 20px; /* Dimensione del testo dei link */
+    margin-right: 30px; /* Margine a destra tra i link */
+    font-family: "Montserrat", Sans-serif;
+   
+    
+}
+.nav-link:hover{
+    color: rgb(36, 36, 36) !important;
+}
+
+#valutazione {
+  text-align: center; /* Centra il testo all'interno del contenitore */
+  margin-top: 20px; /* Esempio: margine sopra per allineare correttamente */
+}
+
+
+
+
+
+/* Stili per il bottone */
+.btn-menu {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px; /* Valore alto per bordi molto arrotondati */
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.btn-menu:hover{
+    color: gray;
+
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+#logo{
+    margin-left: 50PX;
+    width: 150px; 
+    animation: rotate 5s linear infinite; /* 5s è la durata dell'animazione */
+}
+
+#nome {
+    color: black !important; /* Colore dei link (nero) */
+    font-size: 60px; /* Dimensione del testo dei link */
+    font-weight: bold;
+    font-family: 'Neuropol', sans-serif;
+    margin-left: 70px;
+
+}
+
+@font-face {
+    font-family: 'Neuropol';
+    src: url('../fonts/Neuropol.otf') format('truetype');
+}
+
+#fraseHero {
+    color: black !important; /* Colore dei link (nero) */
+    font-size: 24px; /* Dimensione del testo dei link */
+    margin-left: 200px; /* Margine a destra tra i link */
+    font-family: "Montserrat", Sans-serif;
+    font-weight: bold;
+}
+
+.content-container {
+    position: absolute;
+    bottom: 60px; /* Distanza dal fondo della sezione */
+    left: -100px; /* Distanza dal lato sinistro */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 40px); /* Calcola la larghezza togliendo i margini */
+    margin-top: 100px !important;
+}
+
+/* Stili per la linea di separazione più corta */
+.short-divider {
+    border: none;
+    border-top: 1px solid #191919;
+    width: 60%; /* Larghezza personalizzabile */
+    margin: 20px auto;
+}
+
+/* Stili per la linea di separazione standard */
+.divider {
+    border-top: 1px solid #191919;
+    margin-left: 400px;
+    width: 60%;
+}
+
+/* Stili per le frasi nella nuova sezione */
+.phrase-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.phrase-section .phrase-top{
+    font-size: 56px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 400px;
+}
+
+.phrase-section .phrase-bottom {
+    font-size: 24px;
+    text-align: left;
+    margin-left: 400px;
+
+}
+
+.image-background-section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0; /* Regola il padding come desiderato */
+    margin: 0; /* Assicura che non ci siano margini */
+    overflow: hidden; /* Nasconde il contenuto che sfora */
+}
+
+.image-content {
+     /* Sfondo trasparente per il testo */
+    border-radius: 10px;
+    padding: 0;
+    height: 600px;
+    font-family: "Montserrat", Sans-serif;
+    color: #f8f9fa;
+}
+
+.row [class^="col-"] {
+    padding-right: 0; /* Rimuove il padding a destra */
+    padding-left: 0; /* Rimuove il padding a sinistra */
+    margin-right: 0; /* Rimuove il margine a destra */
+    margin-left: 0; /* Rimuove il margine a sinistra */
+}
+
+
+.image-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.image-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.image-content a {
+    font-size: 16px;
+}
+
+/* Impostazione specifica per ciascuna sezione con immagine di sfondo */
+.image-background-section:nth-of-type(1) {
+    background-image: url('../img/imgselection1.jpg');
+}
+
+.image-background-section:nth-of-type(2) {
+    background-image: url('../img/imgselection2.jpg');
+}
+
+.image-background-section:nth-of-type(3) {
+    background-image: url('../img/imgselection3.jpg');
+}
+
+#btnmenu{
+
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px; /* Valore alto per bordi molto arrotondati */
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: auto;
+
+}
+
+#btnmenu:hover{
+    background-color: rgba(0, 0, 0, 1);
+
+}
+
+.image-container {
+    text-align: center;
+  }
+  .card-body {
+    text-align: center;
+  }
+
+
+  #img1{
+    height: 500px;
+    border-radius: 10px;
+  }
+
+
+  .custom-card {
+    width: 85%; /* La larghezza delle card sarà al 100% della larghezza disponibile nella colonna */
+    height: 67%;
+    margin-bottom: 20px; /* Spazio inferiore tra le card */
+    margin-right: 40px !important;
+    border-radius: 10%;
+  }
+  
+  .custom-card .card-body {
+    /* Per centrare il testo orizzontalmente e verticalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+  
+  .review {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review .profile-img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+  }
+  
+  .review .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .review .review-header .username {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .review .review-header .date {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .review .ratings {
+    margin-bottom: 10px;
+  }
+  
+  .review .ratings .star-rating {
+    color: #FFD700;
+  }
+  
+  .review .ratings .star-rating .fa-star {
+    font-size: 18px;
+  }
+  
+  .review .google-logo {
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+  
+  .review .review-text {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .star-rating {
+    color: #FFD700;
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.reviews-section {
+   
+    padding: 20px; /* Aggiunge un po' di spazio interno */
+    border-radius: 8px; /* Arrotonda gli angoli (opzionale) */
+    font-family: "Montserrat", Sans-serif;
+   
+}
+
+.footer {
+    background-color: #000; /* Sfondo nero */
+    color: #fff; /* Testo bianco */
+    padding: 30px 0; /* Spaziatura interna */ 
+     margin-top: auto;
+  }
+
+  #nomefooter{
+    font-family: 'Neuropol', sans-serif;
+    font-size: 30px;
+  }
+
+  #restaurant{
+    margin-left: 75px;
+    font-family: "Montserrat", Sans-serif;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+}
+
+.card-text{
+  font-size: 16px;
+}
+
+.card-title{
+  font-size: 22px;
+}
+
+.faq-question{
+  font-size: 16px;
+}
+
+.faq-answer{
+  font-size: 14px;
+}
+
+.font-weight-bold{
+  font-size: 30px;
+}
+
+.col-md-6{
+  font-size: 16px;
+}

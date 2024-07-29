@@ -1,0 +1,86 @@
+/* Stili per il corpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #686969;
+}
+
+/* Stili per il contenitore principale */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Stili per il singolo libro */
+#singoloLibro {
+    background-color: #6d89b3;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 600px;
+    height: 750px;
+}
+
+#singoloLibro img {
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 300px;
+    height: 450px;
+}
+
+/* Stili per il form di aggiunta del libro */
+#addLibro {
+    background-color: #6d89b3;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+    
+}
+
+#addLibro input[type="text"] {
+    margin: 5px 0;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Stili per i pulsanti */
+.btn {
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+#anteprima img {
+    border-radius: 5px;
+    margin-top: 10px;
+}

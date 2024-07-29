@@ -1,0 +1,103 @@
+img{
+    height: 200px; 
+}
+
+.card-title {
+    height: 3rem; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+}
+
+
+
+
+
+.navbar-custom {
+    height: 120px !important; /* Imposta l'altezza desiderata con !important */
+  }
+  .navbar-custom .navbar-brand img {
+    height: 60px; /* Adatta l'altezza del logo se necessario */
+  }
+  .navbar-custom .dropdown-menu {
+    top: 70px; /* Sposta il menu a tendina verso il basso */
+  }
+
+ #logo{
+
+    height: 120px !important;
+
+  }
+
+  html, body {
+    height: 100%; /* Assicurati che l'html e il body coprano tutta l'altezza */
+    margin: 0;
+  }
+  body {
+    background-image: url('https://images.unsplash.com/photo-1571335746824-742511d49bce?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Percorso dell'immagine */
+    background-size: cover; /* Adatta l'immagine per coprire l'intera area */
+    background-position: center; /* Centra l'immagine */
+    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+    background-attachment: fixed; /* Mantiene l'immagine fissa durante lo scroll */
+  }
+
+
+
+
+  #wrapper.hidden {
+    display: none;
+  }
+  
+  .custom-icon {
+    font-size: 30px; /* Dimensioni personalizzate per l'icona */
+}
+
+.custom-dropdown {
+    /* Personalizza il menu a discesa */
+    padding: 0; /* Rimuove il padding predefinito del menu */
+    border-radius: 5px; /* Aggiunge bordi arrotondati al menu a discesa */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera per lo stile */
+    background-image: url('https://images.pexels.com/photos/3616764/pexels-photo-3616764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Imposta l'immagine di sfondo */
+    background-size: cover; /* Imposta la dimensione dell'immagine di sfondo per coprire l'intero elemento */
+    background-position: center; /* Imposta la posizione dell'immagine di sfondo al centro */
+}
+
+.custom-dropdown .dropdown-item {
+    /* Personalizza le voci di menu */
+    padding: 15px 20px; /* Aggiunge spazio tra i bordi delle voci di menu e il testo */
+    font-size: 26px; /* Dimensione del testo delle voci di menu */
+    color: #333; /* Colore del testo delle voci di menu */
+    transition: background-color 0.3s ease; /* Aggiunge una transizione graduale per il cambio di colore di sfondo */
+    border-bottom: 1px solid #e6e6e6 !important; /* Aggiunge una linea divisoria tra le voci del menu */
+}
+
+.custom-dropdown .dropdown-item:last-child {
+    border-bottom: none; /* Rimuove la linea divisoria dall'ultima voce del menu */
+}
+
+.custom-dropdown .dropdown-item:hover {
+    /* Stile quando si passa il mouse sopra le voci di menu */
+    background-color: #777777; /* Cambia il colore di sfondo quando il mouse è sopra una voce di menu */
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.sold {
+  /* Stile per il testo "Venduto" in diagonale */
+  position: absolute;
+  top: 10px; /* Regola questa posizione per il testo diagonale */
+  right: -20px; /* Regola questa posizione per il testo diagonale */
+  transform: rotate(45deg);
+  background-color: #FF6347; /* Colore di sfondo del testo diagonale */
+  color: white; /* Colore del testo diagonale */
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 100px;
+}
+
